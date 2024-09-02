@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import CreateUser from "../fearures/user/CreateUser";
-import Button from "./button";
+import Button from "./Button";
 
 function Home() {
   const userName = useSelector((state) => state.user.userName);
