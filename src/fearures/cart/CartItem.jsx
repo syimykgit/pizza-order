@@ -7,7 +7,7 @@ import {
   getTotalCartQuantity,
 } from "./cartSlice";
 import DeleteItem from "../DeleteItem";
-import UpdateItemQuantity from "../updateItemQuantity";
+import UpdateItemQuantity from "../UpdateItemQuantity";
 
 function CartItem({ item }) {
   const { pizzaId, name, quantity, totalPrice } = item;
