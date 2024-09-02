@@ -1,5 +1,5 @@
 import { redirect, useFetcher, useParams } from "react-router-dom";
-import Button from "./button";
+import Button from "./Button";
 import { useEffect, useState } from "react";
 import { updateOrder } from "../services/apiRestaurant";
 

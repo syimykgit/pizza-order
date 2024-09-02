@@ -17,7 +17,7 @@ import { useEffect } from "react";
 import UpdateOrder from "../../ui/UpdateOrder";
 import { useDispatch, useSelector } from "react-redux";
 import { saveOrder } from "./orderSlice";
-import Button from "../../ui/button";
+import Button from "../../ui/Button";
 
 export async function loader({ params }) {
   const order = await getOrder(params?.orderId);

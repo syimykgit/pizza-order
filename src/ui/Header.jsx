@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import SearchOrder from "../fearures/order/SearchOrder";
 import Username from "../fearures/user/Username";
 import OrderHistory from "../fearures/order/OrderHistory";
-import Button from "./button";
+import Button from "./Button";
+
 import { useSelector } from "react-redux";
 
 function Header() {
